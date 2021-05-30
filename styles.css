@@ -161,7 +161,7 @@ nav {
   top: 1em;
   z-index: 1000;
 }
-
+/*dropdown*/
 .dropdown {
   display: block;
   position: relative;
@@ -179,7 +179,7 @@ nav {
 
 .dropdown::before,
 .dropdown::after {
-  content: "";
+  content: " ";
   position: absolute;
   left: 0;
   right: 0;
@@ -317,5 +317,3 @@ dropdown::after {
     z-index: 2;
   }
 }
-
-/*dropdown*/
